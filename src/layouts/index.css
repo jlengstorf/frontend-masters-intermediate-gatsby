@@ -1,0 +1,97 @@
+.gradient {
+  background: rebeccapurple;
+}
+
+.navbar {
+  border-bottom: 1px solid #ccc;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  font-size: 20px;
+  margin: inherit;
+  padding: inherit;
+  font-weight: bold;
+}
+
+.navbar h2 {
+  font-size: 14px;
+  margin: inherit;
+  padding: inherit;
+  text-transform: uppercase;
+  color: #eee;
+}
+
+.jumbotron.gradient {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.jumbotron-image {
+  width: 105%;
+  position: relative;
+  left: -2.5%;
+}
+
+.jumbtron-image-container {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.navbar-brand.navbar-brand {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-brand.navbar-brand:hover {
+  color: #eee;
+}
+
+.navbar-brand.navbar-brand:focus {
+  color: white;
+}
+
+.lesson {
+  margin: 15px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: scroll;
+}
+
+.lesson p {
+  clear: both;
+}
+
+.lesson-links {
+  font-size: 18px;
+  padding: 15px 0;
+}
+
+.next {
+  float: right;
+}
+
+.prev {
+  float: left;
+}
+
+.lesson-title {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.doggos {
+  width: 100%;
+  border: 1px solid #666;
+  border-radius: 5px;
+}
