@@ -14,6 +14,8 @@ To install our theme in development, we need Yarn Workspaces:
 yarn workspace example add gatsby-theme-shared-nav@"*"
 ```
 
+This will update `site/package.json` with the theme as a dependency.
+
 ## Configure the theme in our site
 
 To install the theme on our site, modify `site/gatsby-config.js` with the following:
